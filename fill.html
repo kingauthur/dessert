@@ -11,13 +11,8 @@
 			<td>
 					<input type="radio" name="tableDomain" value="pay" id="pay" onclick="selectDomain();"><label for="支付">支付</label>
 					<input type="radio" name="tableDomain" value="refund" id="refund" onclick="selectDomain();"><label for="退款">退款</label>
-					<input type="radio" name="tableDomain" value="transaction" id="transaction" onclick="selectDomain();"><label for="事务前置">事务前置</label>
 					<input type="radio" name="tableDomain" value="deposit" id="deposit" onclick="selectDomain();"><label for="充值">充值</label>
-					<input type="radio" name="tableDomain" value="depositback" id="depositback" onclick=""><label for="充退">充退</label>
-					<input type="radio" name="tableDomain" value="withdraw" id="withdraw" onclick=""><label for="提现">提现</label>
-					<input type="radio" name="tableDomain" value="config" id="config" onclick=""><label for="配置表">配置表</label>
-
-					
+					<input type="radio" name="tableDomain" value="transaction" id="transaction" onclick="selectDomain();"><label for="事务前置">事务前置</label>
 			</td>
 		</tr>
   		<tr>
@@ -30,6 +25,12 @@
 			<td></td>
 			<td>
 				<input type="checkbox" name="payTableList" value="pmt_pay_ord" id="pmt_pay_ord"><label><label for="pmt_pay_ord">pmt_pay_ord</label>
+			</td>
+			<td>
+				<input type="checkbox" name="payTableList" value="pmt_biz_ext_info" id="pmt_biz_ext_info"><label><label for="pmt_biz_ext_info">pmt_biz_ext_info</label>
+			</td>
+			<td>
+				<input type="checkbox" name="payTableList" value="pmt_pay_rcpt_task" id="pmt_pay_rcpt_task"><label><label for="pmt_pay_rcpt_task">pmt_pay_rcpt_task</label>
 			</td>
 			<td>
 				<input type="checkbox" name="payTableList" value="pmt_pay_fd_dtl_smry" id="pmt_pay_fd_dtl_smry"><label><label for="pmt_pay_fd_dtl_smry">pmt_pay_fd_dtl_smry</label>
@@ -47,13 +48,22 @@
 				<input type="checkbox" name="payTableList" value="pmt_pt_fd_dtl" id="pmt_pt_fd_dtl"><label><label for="pmt_pt_fd_dtl">pmt_pt_fd_dtl</label>
 			</td>
 			<td>
-				<input type="checkbox" name="payTableList" value="pmt_tm_fd_dtl" id="pmt_tm_fd_dtl"><label><label for="pmt_tm_fd_dtl">pmt_tm_fd_dtl</label>
-			</td>
-			<td>
-				<input type="checkbox" name="payTableList" value="pmt_ppc_fd_dtl" id="pmt_ppc_fd_dtl"><label><label for="pmt_ppc_fd_dtl">pmt_ppc_fd_dtl</label>
+				<input type="checkbox" name="payTableList" value="pmt_pcd_fd_dtl" id="pmt_pcd_fd_dtl"><label><label for="pmt_pcd_fd_dtl">pmt_pcd_fd_dtl</label>
 			</td>
 			<td>
 				<input type="checkbox" name="payTableList" value="pmt_dct_fd_dtl" id="pmt_dct_fd_dtl"><label><label for="pmt_dct_fd_dtl">pmt_dct_fd_dtl</label>
+			</td>
+			<td>
+				<input type="checkbox" name="payTableList" value="pmt_tm_fd_dtl" id="pmt_tm_fd_dtl"><label><label for="pmt_tm_fd_dtl">pmt_tm_fd_dtl</label>
+			</td>
+			<td>
+				<input type="checkbox" name="payTableList" value="pmt_fna_fd_dtl" id="pmt_fna_fd_dtl"><label><label for="pmt_fna_fd_dtl">pmt_fna_fd_dtl</label>
+			</td>
+			<td>
+				<input type="checkbox" name="payTableList" value="pmt_mfd_fd_dtl" id="pmt_mfd_fd_dtl"><label><label for="pmt_mfd_fd_dtl">pmt_mfd_fd_dtl</label>
+			</td>
+			<td>
+				<input type="checkbox" name="payTableList" value="pmt_pcc_fd_dtl" id="pmt_pcc_fd_dtl"><label><label for="pmt_pcc_fd_dtl">pmt_pcc_fd_dtl</label>
 			</td>
 			<td>
 				<input type="checkbox" name="payTableList" value="pmt_batch_create_smry" id="pmt_batch_create_smry"><label><label for="pmt_batch_create_smry">pmt_batch_create_smry</label>
@@ -79,18 +89,7 @@
 			<td>
 				<input type="checkbox" name="refundTableList" value="pmt_pt_rfd_dtl" id="pmt_pt_rfd_dtl"><label><label for="pmt_pt_rfd_dtl">pmt_pt_rfd_dtl</label>
 			</td>
-			<td>
-				<input type="checkbox" name="refundTableList" value="pmt_tm_rfd_dtld" id="pmt_tm_rfd_dtld"><label><label for="pmt_tm_rfd_dtld">pmt_tm_rfd_dtld</label>
-			</td>
-			<td>
-				<input type="checkbox" name="refundTableList" value="pmt_ppc_rfd_dtl" id="pmt_ppc_rfd_dtl"><label><label for="pmt_ppc_rfd_dtl">pmt_ppc_rfd_dtl</label>
-			</td>
-			<td>
-				<input type="checkbox" name="refundTableList" value="pmt_dct_rfd_dtl" id="pmt_dct_rfd_dtl"><label><label for="pmt_dct_rfd_dtl">pmt_dct_rfd_dtl</label>
-			</td>
-			<td>
-				<input type="checkbox" name="refundTableList" value="pmt_pcd_rfd_dtl" id="pmt_pcd_rfd_dtl"><label><label for="pmt_pcd_rfd_dtl">pmt_pcd_rfd_dtl</label>
-			</td>
+
 		</tr>
 		<tr>
 			<td></td>
